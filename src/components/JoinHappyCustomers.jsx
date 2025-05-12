@@ -52,13 +52,13 @@ const JoinHappyCustomers = () => {
   });
   return (
     <div
-      className="py-[5rem] bg-center bg-cover relative text-white max-w-[95%] mx-auto rounded-xl"
+      className="py-[5rem] bg-center bg-cover relative text-black max-w-[95%] mx-auto rounded-xl"
       // style={{ backgroundImage: `url(${bgImg})` }}
     >
-      <div className="absolute top-0 w-full h-full bg-secondary rounded-xl"></div>
+      <div className="absolute top-0 w-full h-full bg-secondary/40 rounded-xl"></div>
       <div className="relative z-10 rounded-xl">
         <div data-aos="fade-up" className="wrapper ">
-          <h2 className="sub-heading max-w-[60rem] mx-auto text-center">
+          <h2 className="sub-heading max-w-[60rem] mx-auto text-center !font-semibold">
             {/* Join Our <span className="text-primary">100+</span> Happy Clients */}
             Trusted BY 100+ Happy Clients
           </h2>

@@ -8,7 +8,7 @@ const OurValue = () => {
     <section className="bg-tertiary/95 py-[5rem]">
       <div className="wrapper grid md:grid-cols-2 items-center gap-7">
         <div className="flex flex-col items-start gap-5">
-          <SubHeading heading="Our Values" />
+          <SubHeading heading="Our Values" textColor="black" />
           <h2 data-aos="fade-up" className="heading-2 mx-0 text-black">
             Integrity at Our Core,
             <br /> Innovation in Our Spirit
@@ -19,7 +19,7 @@ const OurValue = () => {
             and unlock invaluable data-driven insights.
           </p>
           <div data-aos="fade-up" className="flex gap-5 mt-2">
-            <div className="min-w-[4rem] h-[4rem] bg-primary rounded-full flex items-center justify-center">
+            <div className="min-w-[4rem] h-[4rem] bg-secondary rounded-full flex items-center justify-center">
               <img
                 loading="lazy"
                 src={ourValuesIcon1}
@@ -37,7 +37,7 @@ const OurValue = () => {
             </div>
           </div>
           <div data-aos="fade-up" className="flex gap-5">
-            <div className="min-w-[4rem] h-[4rem] bg-primary rounded-full flex items-center justify-center">
+            <div className="min-w-[4rem] h-[4rem] bg-secondary rounded-full flex items-center justify-center">
               <img
                 loading="lazy"
                 src={ourValuesIcon2}
@@ -58,7 +58,7 @@ const OurValue = () => {
         </div>
         <div
           data-aos="fade-up"
-          className="bg-secondary flex flex-col gap-6 h-full justify-center rounded-xl p-10"
+          className="bg-primary flex flex-col gap-6 h-full justify-center rounded-xl p-10"
         >
           <div className="flex flex-col gap-2">
             <div className="flex justify-between gap-4">
@@ -66,7 +66,7 @@ const OurValue = () => {
               <p className="font-medium">95%</p>
             </div>
             <div className="w-full bg-white h-2 rounded-full overflow-hidden">
-              <div className="bg-primary h-full w-[95%]"></div>
+              <div className="bg-primary/50 h-full w-[95%]"></div>
             </div>
           </div>
           <div className="flex flex-col gap-2">
@@ -75,7 +75,7 @@ const OurValue = () => {
               <p className="font-medium">98%</p>
             </div>
             <div className="w-full bg-white h-2 rounded-full overflow-hidden">
-              <div className="bg-primary h-full w-[98%]"></div>
+              <div className="bg-primary/50 h-full w-[98%]"></div>
             </div>
           </div>
           <div className="flex flex-col gap-2">
@@ -84,7 +84,7 @@ const OurValue = () => {
               <p className="font-medium">92%</p>
             </div>
             <div className="w-full bg-white h-2 rounded-full overflow-hidden">
-              <div className="bg-primary h-full w-[92%]"></div>
+              <div className="bg-primary/50 h-full w-[92%]"></div>
             </div>
           </div>
           <div className="flex flex-col gap-2">
@@ -93,7 +93,7 @@ const OurValue = () => {
               <p className="font-medium">90%</p>
             </div>
             <div className="w-full bg-white h-2 rounded-full overflow-hidden">
-              <div className="bg-primary h-full w-[90%]"></div>
+              <div className="bg-primary/50 h-full w-[90%]"></div>
             </div>
           </div>
         </div>

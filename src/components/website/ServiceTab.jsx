@@ -34,8 +34,8 @@ export default function ServiceTabs() {
                 whitespace-nowrap px-6 py-3 text-sm font-medium transition-all duration-300 ease-in-out
                 ${
                   activeTab === service.id
-                    ? "text-white border-b-2 border-primary"
-                    : "text-tertiary/70 hover:text-primary"
+                    ? "text-white border-b-2 border-secondary"
+                    : "text-tertiary/70 hover:text-secondary"
                 }
               `}
             >

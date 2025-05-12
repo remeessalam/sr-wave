@@ -6,12 +6,15 @@ import Services from "./pages/Services";
 //service images
 import web from "./assets/images/services/web.png";
 import app from "./assets/images/services/app.png";
-import chat from "./assets/images/services/chat.png";
+import blockchain from "./assets/images/services/blockchain.png";
 import game from "./assets/images/services/game.png";
-import vrar from "./assets/images/services/vrar.png";
-import mvp from "./assets/images/services/mvp.png";
+import rpa from "./assets/images/services/rpa.png";
+import nlp from "./assets/images/services/nlp.png";
 import ai from "./assets/images/services/ai.png";
 import data from "./assets/images/services/data.png";
+import cloud from "./assets/images/services/cloud.png";
+import uiux from "./assets/images/services/uiux.png";
+import marketing from "./assets/images/services/marketing.png";
 
 export { logoImg };
 
@@ -147,74 +150,95 @@ export const allServices = [
   {
     id: "1",
     img: web,
-    title: "Web Development (Full Stack):",
-    description:
-      "Crafting seamless and scalable websites and web applications tailored to your business needs, ensuring a dynamic online presence.",
+    title: "Web Development – Modern, Optimized, Conversion-Focused:",
+    description: "Your website is your digital front door—let’s make it great.",
     detailContent:
-      "In today's digital age, having a robust online presence is vital for businesses. Full-stack web development encompasses everything from the client-side interface to server-side logic, ensuring a seamless user experience. By leveraging the latest technologies and frameworks, our team creates websites that are not only visually appealing but also scalable and secure. Whether it's an e-commerce platform, a corporate website, or a custom web application, we tailor every project to meet your unique business requirements. From initial design to deployment, we ensure your online platform is built to last. Partner with us to transform your vision into a dynamic, user-friendly website that stands out in the digital world.",
+      "We build fast, functional websites that drive results, leveraging the latest frameworks and platforms. Our services include frontend & backend (React, Angular, Node.js, Django), e-commerce solutions (Shopify, WooCommerce, Magento), CMS solutions (WordPress, Drupal), and SEO & performance optimization.",
   },
   {
     id: "2",
     img: app,
-    title: "Mobile App Development:",
+    title: "App Development – Engaging Mobile & Web Apps:",
     description:
-      "Building innovative mobile applications that enhance customer engagement and provide users with exceptional on-the-go experiences.",
+      "We design intuitive, high-performance apps that your users will love.",
     detailContent:
-      "Mobile applications have become an integral part of everyday life, offering unparalleled convenience and accessibility. Our mobile app development services focus on creating user-centric applications that work seamlessly on both iOS and Android platforms. We specialize in developing apps that prioritize performance, intuitive design, and scalability. Whether it's a consumer-facing app or an enterprise solution, our team ensures it aligns with your business goals and engages your audience effectively. By integrating cutting-edge technologies and ensuring a smooth user experience, we help you connect with customers on-the-go and drive business growth. Let us bring your app idea to life with innovation and precision.",
+      "From concept to launch, we build apps that grow with your business. Our app development services include native iOS & Android apps (Swift, Kotlin), cross-platform solutions (Flutter, React Native), PWAs, and custom enterprise apps.",
   },
   {
     id: "3",
-    img: chat,
-    title: "Chatbot Development:",
+    img: blockchain,
+    title: "Blockchain Development – Secure, Scalable, Decentralized:",
     description:
-      "Creating AI-powered chatbots to automate interactions, enhance customer support, and deliver personalized assistance 24/7.",
+      "Unlock the potential of blockchain with tailored solutions designed for transparency and trust.",
     detailContent:
-      "As businesses grow, managing customer interactions efficiently becomes critical. AI-powered chatbots are a game-changer, enabling businesses to provide real-time assistance, automate repetitive tasks, and offer personalized solutions. Our chatbot development services focus on creating intelligent bots that understand user intent and deliver accurate responses. Whether it's for customer support, lead generation, or e-commerce assistance, our chatbots enhance user experience while reducing operational costs. With advanced natural language processing capabilities, our bots can seamlessly integrate with your existing platforms. Unlock the potential of 24/7 automated customer interaction with our cutting-edge chatbot solutions.",
+      "We specialize in blockchain solutions including Smart Contracts (Ethereum, Solana, Hyperledger), NFT & Token Development (ERC-20, ERC-721, BEP-20), DeFi Platforms & DApps, and Enterprise Blockchain Consulting & Integration.",
   },
   {
     id: "4",
     img: game,
-    title: "Game Development:",
+    title: "Game Development – Build Immersive Gaming Experiences:",
     description:
-      "Designing interactive and engaging games across platforms, blending creativity and technology to captivate audiences.",
+      "From indie games to AAA titles, we bring your ideas to life with creative and technical precision.",
     detailContent:
-      "Gaming is not just entertainment—it's an art form that combines storytelling, design, and technology. Our game development services bring your ideas to life by creating immersive and interactive experiences. From concept creation and character design to coding and deployment, we handle every aspect of game development with precision. Whether you're targeting mobile gamers, console players, or PC enthusiasts, our games are designed to captivate and engage. Using state-of-the-art engines and tools, we ensure stunning graphics, smooth performance, and compelling gameplay. Collaborate with us to create games that resonate with audiences and stand out in the competitive gaming industry.",
+      "Our game development services include 2D/3D game development (Unity, Unreal Engine), AR/VR experiences, multiplayer & blockchain games, and game porting, optimization & live ops.",
   },
   {
     id: "5",
-    img: vrar,
-    title: "Virtual Reality (VR) and Augmented Reality (AR):",
-    description:
-      "Developing immersive experiences that merge virtual and real-world elements, revolutionizing industries like gaming, education, and retail.",
+    img: rpa,
+    title: "Robotic Process Automation (RPA) – Automate & Optimize:",
+    description: "Free up your team’s time with smart automation solutions.",
     detailContent:
-      "Virtual and Augmented Reality are transforming how we interact with technology. By blending digital elements with the physical world, VR and AR create engaging, immersive experiences that captivate users. Our expertise in VR and AR development spans various industries, including gaming, education, healthcare, and retail. We design custom solutions that meet your business needs, from VR simulations for training to AR apps for enhanced shopping experiences. By leveraging the latest advancements in technology, we craft experiences that not only impress but also add value to your brand. Explore the future of technology with our VR and AR solutions.",
+      "We provide workflow automation (UiPath, Blue Prism), AI-Powered RPA, and ERP/CRM system integration to streamline your operations and optimize business processes.",
   },
   {
     id: "6",
-    img: mvp,
-    title: "MVP Development:",
+    img: ai,
+    title: "AI & Machine Learning – Smarter Solutions, Real Results:",
     description:
-      "Turning ideas into impactful products quickly with scalable Minimum Viable Products tailored to market needs.",
+      "We build intelligent systems that learn, adapt, and deliver value.",
     detailContent:
-      "Launching a new product can be a daunting task, but MVP development simplifies the process by focusing on core functionalities. Our MVP development services help businesses validate their ideas quickly while minimizing risks and costs. We collaborate closely with you to understand your vision and develop a product that addresses the needs of your target audience. By leveraging agile methodologies, we ensure quick iterations and continuous improvement. Whether you're a startup or an established enterprise, our MVP solutions are designed to provide a strong foundation for future growth. Bring your idea to market faster and smarter with our expert MVP development services.",
+      "Our AI/ML services include AI Chatbots & Virtual Assistants, Predictive Analytics & Insights, Computer Vision & NLP, and Custom ML Models tailored for various industries.",
   },
   {
     id: "7",
-    img: ai,
-    title: "Artificial Intelligence Development:",
+    img: cloud,
+    title: "Cloud Computing – Fast, Flexible, Future-Ready:",
     description:
-      "Building intelligent systems that automate processes, personalize experiences, and enable smarter decision-making.",
+      "Scale with confidence through secure and seamless cloud solutions.",
     detailContent:
-      "Artificial Intelligence is revolutionizing industries by enabling smarter and more efficient systems. Our AI development services focus on creating intelligent solutions tailored to your business needs. From predictive analytics and natural language processing to computer vision and machine learning models, we deliver AI systems that solve complex problems and drive innovation. By automating processes and personalizing user experiences, our AI solutions help businesses achieve greater efficiency and customer satisfaction. Embrace the power of AI to stay ahead in the competitive landscape with our expertise and dedication to delivering cutting-edge technologies.",
+      "Our cloud services include Cloud Strategy & Migration (AWS, Azure, GCP), DevOps & CI/CD, Serverless & Kubernetes, and Cloud Security & Cost Optimization.",
   },
   {
     id: "8",
     img: data,
-    title: "Data Analytics and Business Intelligence:",
-    description:
-      "Transforming raw data into actionable insights, empowering businesses to make informed, data-driven decisions.",
+    title: "Data Science & Analytics – Make Smarter Moves:",
+    description: "Turn your data into actionable insights.",
     detailContent:
-      "Data is the new currency, and harnessing its power can give businesses a significant competitive edge. Our data analytics and business intelligence services help you uncover valuable insights hidden within your data. By leveraging advanced analytics tools and techniques, we transform raw data into meaningful dashboards and reports. Our solutions empower you to identify trends, predict outcomes, and make data-driven decisions with confidence. From descriptive analytics to predictive modeling, we cover the entire spectrum of data analysis. Take control of your data and turn it into a strategic asset with our tailored analytics solutions.",
+      "Our data services encompass Big Data & Visualization, Predictive Modeling & BI, and Data Engineering & ETL Pipelines to help you unlock valuable business insights.",
+  },
+  {
+    id: "9",
+    img: nlp,
+    title: "NLP – Understand and Connect with Language:",
+    description: "Build smarter interactions with natural language tech.",
+    detailContent:
+      "We develop NLP solutions including Chatbots & Voice Interfaces, Sentiment Analysis & Text Mining, and Automated Translation & Speech Recognition.",
+  },
+  {
+    id: "10",
+    img: uiux,
+    title: "UI/UX Design – Design That Works (and Wows):",
+    description: "Great design goes beyond looks—it solves problems.",
+    detailContent:
+      "Our design services cover Research & Wireframing, User-Centered Interfaces, Prototyping & Visual Identity to create intuitive, elegant experiences for your users.",
+  },
+  {
+    id: "11",
+    img: marketing,
+    title: "Digital Marketing – Visibility That Converts:",
+    description: "We help great products get noticed and grow.",
+    detailContent:
+      "Our digital marketing services include SEO, Social Media Marketing, PPC Ads, and Content & Email Strategy to ensure your business reaches the right audience at the right time.",
   },
 ];
 

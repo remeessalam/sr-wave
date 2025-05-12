@@ -84,7 +84,7 @@ const LeadForm = () => {
           <input
             type="text"
             placeholder="Name"
-            className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
+            className="outline-none border-secondary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
             {...register("name", {
               required: "Full name is required",
               validate: (val) => {
@@ -102,7 +102,7 @@ const LeadForm = () => {
           <input
             type="email"
             placeholder="Email"
-            className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
+            className="outline-none border-secondary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
             {...register("email", {
               required: "Email is required",
               pattern: {
@@ -117,7 +117,7 @@ const LeadForm = () => {
           <input
             type="tel"
             placeholder="Phone Number"
-            className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
+            className="outline-none border-secondary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
             {...register("phone", {
               required: "Phone number is required",
               pattern: {
@@ -132,7 +132,7 @@ const LeadForm = () => {
           <input
             type="text"
             placeholder="Subject"
-            className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
+            className="outline-none border-secondary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
             {...register("subject", {
               required: "Subject is required",
               validate: (val) => {
@@ -150,7 +150,7 @@ const LeadForm = () => {
           <textarea
             rows="3"
             placeholder="Message"
-            className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
+            className="outline-none border-secondary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
             {...register("message", {
               required: "Message is required",
               validate: (val) => {
