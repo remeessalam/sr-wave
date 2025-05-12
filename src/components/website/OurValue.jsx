@@ -10,13 +10,14 @@ const OurValue = () => {
         <div className="flex flex-col items-start gap-5">
           <SubHeading heading="Our Values" textColor="black" />
           <h2 data-aos="fade-up" className="heading-2 mx-0 text-black">
-            Integrity at Our Core,
-            <br /> Innovation in Our Spirit
+            Innovation That Drives Growth,
+            <br /> Integrity That Builds Trust
           </h2>
           <p data-aos="fade-up" className="desc !text-black">
-            Our diverse expertise spans multiple industries, empowering
-            businesses of all sizes to harness the transformative power of AI
-            and unlock invaluable data-driven insights.
+            At SR Wave, we believe in pushing boundaries through innovation
+            while maintaining transparency and integrity in all our endeavors.
+            Our solutions are designed to empower businesses to thrive in a
+            fast-paced digital landscape.
           </p>
           <div data-aos="fade-up" className="flex gap-5 mt-2">
             <div className="min-w-[4rem] h-[4rem] bg-secondary rounded-full flex items-center justify-center">
@@ -29,10 +30,11 @@ const OurValue = () => {
             </div>
             <div className="flex flex-col gap-1">
               <h6 className="text-lg font-medium text-black">
-                Innovation and Excellence
+                Innovation & Excellence
               </h6>
               <p className="desc !text-black">
-                Leading the future with cutting-edge solutions.
+                Crafting smart, scalable solutions that drive business growth
+                and operational efficiency.
               </p>
             </div>
           </div>
@@ -47,11 +49,11 @@ const OurValue = () => {
             </div>
             <div className="flex flex-col gap-1">
               <h6 className="text-lg font-medium text-black">
-                Integrity and Transparency
+                Integrity & Transparency
               </h6>
               <p className="desc !text-black">
-                Building trust, fostering relationships, and ensuring
-                accountability.
+                Building trust through open communication, reliable service, and
+                a commitment to quality.
               </p>
             </div>
           </div>
@@ -62,7 +64,7 @@ const OurValue = () => {
         >
           <div className="flex flex-col gap-2">
             <div className="flex justify-between gap-4">
-              <p className="font-medium">Web Development</p>
+              <p className="font-medium">Blockchain Development</p>
               <p className="font-medium">95%</p>
             </div>
             <div className="w-full bg-white h-2 rounded-full overflow-hidden">
@@ -71,7 +73,7 @@ const OurValue = () => {
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex justify-between gap-4">
-              <p className="font-medium">App Development</p>
+              <p className="font-medium">Game Development</p>
               <p className="font-medium">98%</p>
             </div>
             <div className="w-full bg-white h-2 rounded-full overflow-hidden">
@@ -80,7 +82,7 @@ const OurValue = () => {
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex justify-between gap-4">
-              <p className="font-medium">Cloud Migration Services</p>
+              <p className="font-medium">AI & ML Solutions</p>
               <p className="font-medium">92%</p>
             </div>
             <div className="w-full bg-white h-2 rounded-full overflow-hidden">
@@ -89,7 +91,7 @@ const OurValue = () => {
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex justify-between gap-4">
-              <p className="font-medium">IT Consulting</p>
+              <p className="font-medium">Cloud Migration</p>
               <p className="font-medium">90%</p>
             </div>
             <div className="w-full bg-white h-2 rounded-full overflow-hidden">

@@ -26,7 +26,7 @@ const ContactUs = () => {
                 size={40}
                 className="text-primary inline min-w-5"
               />
-              <span className="text-center font-medium text-white ">
+              <span className="text-center font-medium text-black ">
                 {companyDetails.address}
               </span>
             </div>
@@ -36,7 +36,7 @@ const ContactUs = () => {
               className="bg-secondary flex flex-col gap-3 items-center justify-center rounded-xl p-5"
             >
               <Mail strokeWidth={2} size={40} className="text-primary inline" />
-              <span className="text-center font-medium text-white">
+              <span className="text-center font-medium text-black">
                 {companyDetails.email}
               </span>
             </Link>
@@ -50,7 +50,7 @@ const ContactUs = () => {
                 size={40}
                 className="text-primary inline"
               />
-              <span className="text-center font-medium text-white">
+              <span className="text-center font-medium text-black">
                 {companyDetails.phone}
               </span>
             </Link>

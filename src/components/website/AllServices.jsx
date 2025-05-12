@@ -36,10 +36,10 @@ const AllServices = () => {
                 className="h-[10.5rem] md:h-[14rem] max-h-[15rem] object-contain"
                 alt=""
               />
-              <h6 className="text-xl font-medium mt-2 text-white">
+              <h6 className="text-xl font-medium mt-2 text-black">
                 {service.title}
               </h6>
-              <p className="desc mt-2 !text-white">{service.description}</p>
+              <p className="desc mt-2 !text-black">{service.description}</p>
             </div>
             <button
               onClick={() => handleSelectServiceToShowDetail(service)}

@@ -17,7 +17,7 @@ const content = [
   },
   {
     icon: icon2,
-    title: "Affordable & Time Efficient",
+    title: "Scalable & Impactful Solutions",
   },
   {
     icon: icon3,
@@ -33,11 +33,11 @@ const content = [
   },
   {
     icon: icon6,
-    title: "Dedicated Support",
+    title: "Reliable Support",
   },
   {
     icon: icon7,
-    title: "Transparent and Reliable",
+    title: "Transparency & Integrity",
   },
   {
     icon: icon8,
@@ -66,10 +66,10 @@ const WhyChooseUs = () => {
               Why Choose Us?
             </h1>
             <p className="desc text-center max-w-[50rem] mx-auto">
-              We specialize in transforming ambitious ideas into groundbreaking
-              digital solutions. With a blend of creativity, technology, and
-              strategy, we partner with businesses to deliver results that truly
-              matter.
+              At SR Wave, we are committed to delivering impactful digital
+              solutions that are both innovative and reliable. With a focus on
+              transparency, scalability, and client-centric service, we
+              transform ideas into realities.
             </p>
             <div
               data-aos="fade-up"

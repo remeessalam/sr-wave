@@ -22,7 +22,7 @@ const Services = () => {
       <WebsiteHeader />
       <PageBanner
         title="Our Services"
-        desc="At [your-company-name], we are not just committed to driving growth; we also cultivate a culture of continuous learning and innovation within our team. Our passionate engineers and data scientists are encouraged to explore new ideas, push boundaries, and embrace the latest advancements in AI technology."
+        desc="At SR Wave, we go beyond delivering digital solutions. Our team is driven by a passion for innovation and a commitment to excellence. From blockchain to AI and cloud computing, we bring expertise, creativity, and integrity to every project, empowering businesses to thrive in a digital-first world."
       />
       <AllServices />
       <OurValue />

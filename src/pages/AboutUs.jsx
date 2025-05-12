@@ -43,7 +43,7 @@ const AboutUs = () => {
               loading="lazy"
               src={aboutImg1}
               className="object-cover h-full rounded-lg"
-              alt=""
+              alt="About SR Wave"
             />
           </div>
           <div
@@ -60,40 +60,40 @@ const AboutUs = () => {
                   loading="lazy"
                   src={aboutImg1}
                   className="object-cover h-full rounded-lg w-full"
-                  alt=""
+                  alt="About SR Wave"
                 />
               </div>
               <h2 className="heading-2 max-w-[60rem] mx-auto">
-                Transforming Visions into Technological Reality
+                Driving Innovation, Building Trust
               </h2>
               <p className="desc">
-                At <b>[your-company-name]</b>, we leverage the transformative
-                power of artificial intelligence to catalyse remarkable change
-                across industries. Our unwaveringcommitment to transparency and
-                reliability is what truly sets us apart in a crowded
-                marketplace.
+                At <b>SR Wave</b>, we are more than just a tech company—we are
+                your partners in crafting smart, scalable solutions that fuel
+                business growth and digital transformation. From blockchain to
+                AI, our expertise is rooted in transparency, integrity, and a
+                passion for innovation.
               </p>
             </div>
           </div>
         </div>
         <div data-aos="fade-up" className="mt-[2rem]">
-          <h2 className="text-xl font-medium">Where AI Meets Integrity</h2>
+          <h2 className="text-xl font-medium">
+            Empowering Businesses Through Technology
+          </h2>
           <p className="desc mt-2">
-            At [your-company-name] Labs, our innovative solutions are crafted
-            not only to meet the demands of today but also to anticipate the
-            challenges of tomorrow, ensuring your business stays ahead of the
-            curve. What drives us is our steadfast commitment to ethical
-            principles and integrity.
+            At SR Wave, our mission is to bridge the gap between emerging
+            technologies and real-world business challenges. Our goal is to
+            design solutions that are not only innovative but also ethically
+            driven and sustainable.
             <br /> <br />
-            We believe that true innovation is rooted in responsibility,
-            fostering trust and building long-term partnerships with our
-            clients. Together with [your-company-name] Labs, let’s unlock the
-            transformative potential of AI and turn your vision into reality!
+            We believe in creating long-lasting partnerships built on trust,
+            transparency, and the pursuit of excellence. Together, let's
+            redefine what technology can do for your business.
           </p>
         </div>
         <div className="mt-[3rem]">
           <h2 data-aos="fade-up" className="heading-2 text-center">
-            Our Visionary And Mission
+            Our Vision and Mission
           </h2>
           <div className="flex flex-col-reverse md:grid grid-cols-2 gap-10 mt-7">
             <div
@@ -101,16 +101,14 @@ const AboutUs = () => {
               className="flex h-full items-center md:items-start flex-col gap-7"
             >
               <p className="desc">
-                At <b>[your-company-name] labs</b> , our mission is to deliver
-                cutting-edge digital solutions that empower businesses to lead
-                in the ever-evolving tech landscape. From full-stack web
-                development to MVP creation and AI-driven insights, we design
-                and implement strategies that define success.
-                <br />
-                <br />
-                To be the global partner of choice for innovative businesses,
-                bridging the gap between complex challenges and smart, scalable
-                solutions.
+                At SR Wave, our mission is to empower businesses with tailored
+                digital solutions that accelerate growth, drive innovation, and
+                foster sustainable success. From end-to-end software development
+                to AI-powered insights, we deliver results that matter.
+                <br /> <br />
+                Our vision is to be the go-to tech partner for companies seeking
+                to innovate, scale, and succeed in a rapidly evolving digital
+                landscape.
               </p>
             </div>
             <div data-aos="fade-up" className="h-full">
@@ -118,12 +116,13 @@ const AboutUs = () => {
                 loading="lazy"
                 src={aboutImg2}
                 className="object-cover w-full max-h-[20rem] rounded-lg"
-                alt=""
+                alt="Our Vision and Mission"
               />
             </div>
           </div>
         </div>
       </section>
+
       <TrustWorthySection />
       <section className="wrapper py-[3rem] bg-tertiary">
         <div className="grid md:grid-cols-2 gap-10 mt-7">
@@ -132,7 +131,7 @@ const AboutUs = () => {
               loading="lazy"
               src={aboutImg3}
               className="object-cover h-full w-full max-h-[20rem] rounded-lg"
-              alt=""
+              alt="Our Mission"
             />
           </div>
           <div
@@ -140,27 +139,27 @@ const AboutUs = () => {
             className="flex items-center lg:items-start flex-col gap-7"
           >
             <p className="desc !text-black">
-              At <b>[your-company-name] Labs</b>, our mission is to deliver
-              cutting-edge digital solutions that empower businesses to lead in
-              the ever-evolving tech landscape. We recognize that true
-              innovation is not just about advanced technology but also about
-              ensuring every solution is rooted in integrity and responsibility.
+              At <b>SR Wave</b>, our mission is to craft digital solutions that
+              drive innovation, streamline operations, and deliver tangible
+              results. Our approach blends technical excellence with a
+              commitment to integrity, ensuring that every project not only
+              meets business goals but also aligns with ethical principles.
               <br /> <br />
-              From full-stack web development to MVP creation and AI-driven
-              insights, we are committed to designing and implementing
-              strategies that define success while upholding ethical principles.
-              By leveraging the immense power of artificial intelligence, we
-              catalyze transformative change across industries, tackling unique
-              challenges and unlocking new opportunities for growth and
-              efficiency.
-              <br /> <br /> At <b>[your-company-name] Labs</b>, innovation is
-              our driving force, and responsibility is our foundation. Together,
-              we empower businesses to thrive with solutions that inspire trust
-              and deliver measurable impact.
+              From blockchain development to AI-driven insights, we transform
+              complex challenges into impactful solutions that empower
+              businesses to stay ahead of the curve. Our team of experts
+              leverages cutting-edge technologies to build solutions that are
+              robust, scalable, and future-ready.
+              <br /> <br />
+              At <b>SR Wave</b>, innovation is more than a buzzword—it’s our
+              core value. Join us as we shape the future of business with smart,
+              data-driven solutions that inspire trust and fuel sustainable
+              growth.
             </p>
           </div>
         </div>
       </section>
+
       <WhyChooseUs />
       {/* <section className="text-white wrapper py-[3rem]">
         <div className="grid md:grid-cols-2 gap-10 mt-7">
