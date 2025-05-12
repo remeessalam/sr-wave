@@ -15,6 +15,87 @@ import data from "./assets/images/services/data.png";
 import cloud from "./assets/images/services/cloud.png";
 import uiux from "./assets/images/services/uiux.png";
 import marketing from "./assets/images/services/marketing.png";
+// porfolio image
+// Import all images at the top (Web Development)
+import FiveGHomesImg from "./assets/web-development-portfolio/5ghomes.webp";
+import ColdCreekcapImg from "./assets/web-development-portfolio/cold-creekcap.webp";
+import ThinkRealityImg from "./assets/web-development-portfolio/think-reality.webp";
+import AkashMegaMart from "./assets/web-development-portfolio/Akash-Mega-Mart.webp";
+import MidwamImmersive from "./assets/web-development-portfolio/Midwam–Immersive-Experience-Design-Company.webp";
+
+// Import all images at the top (App Development)
+import RentopBikeAndCarImgapp from "./assets/app-development-portfolio/Rentop–Bike-&-Car-Rentals.webp";
+import AkashMegaMartApp from "./assets/app-development-portfolio/Akash-Mega-Mart-Mobile-App.webp";
+import FeelItMobileApp from "./assets/app-development-portfolio/FeelIt-Mobile-App.webp";
+import KlikomicsMobileApp from "./assets/app-development-portfolio/Klikomics-Mobile-App.webp";
+import AutoSnapMobileApp from "./assets/app-development-portfolio/AutoSnap-Mobile-App.webp";
+// portfolio images (web development)
+export const webPortfolio = [
+  {
+    id: 1,
+    img: FiveGHomesImg,
+    title: "5g Homes",
+    link: "https://5ghighspeedinternet.co",
+  },
+  {
+    id: 3,
+    img: ColdCreekcapImg,
+    title: "Cold Creekcap",
+    link: "https://www.coldcreekcap.com",
+  },
+  {
+    id: 9,
+    img: ThinkRealityImg,
+    title: "Think Reality",
+    link: "https://thinkrealty.ae",
+  },
+  {
+    id: 90,
+    img: AkashMegaMart,
+    title: "Akash Mega Mart",
+    link: "https://akashmegamart.com/",
+  },
+  {
+    id: 91,
+    img: MidwamImmersive,
+    title: "Midwam – Immersive Experience Design Company",
+    link: "https://www.midwam.com/en/about",
+  },
+];
+
+// portfolio images (app development)
+export const appPortfolio = [
+  {
+    id: 1,
+    img: AkashMegaMartApp,
+    title: "Akash Mega Mart Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
+  },
+  {
+    id: 2,
+    img: FeelItMobileApp,
+    title: "FeelIt Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
+  },
+  {
+    id: 3,
+    img: KlikomicsMobileApp,
+    title: "Klikomics Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
+  },
+  {
+    id: 4,
+    img: AutoSnapMobileApp,
+    title: "AutoSnap Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
+  },
+  {
+    id: 8,
+    img: RentopBikeAndCarImgapp,
+    title: "Rentop Bike and Car",
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
+  },
+];
 
 export { logoImg };
 
@@ -257,65 +338,65 @@ export const allServices = [
   },
 ];
 
-// portfolio images (web development)
-export const webPortfolio = [
-  {
-    id: 1,
-    img: require("./assets/images/web_projects/1.webp"),
-    title: "FE-Finance",
-  },
-  {
-    id: 2,
-    img: require("./assets/images/web_projects/2.webp"),
-    title: "Ocxee",
-  },
-  {
-    id: 3,
-    img: require("./assets/images/web_projects/3.webp"),
-    title: "Leaderbridge",
-  },
-  {
-    id: 4,
-    img: require("./assets/images/web_projects/4.webp"),
-    title: "Gigzio",
-  },
-  {
-    id: 5,
-    img: require("./assets/images/web_projects/5.webp"),
-    title: "FE Group",
-  },
-  {
-    id: 6,
-    img: require("./assets/images/web_projects/6.webp"),
-    title: "V Talkz",
-  },
-];
+// // portfolio images (web development)
+// export const webPortfolio = [
+//   {
+//     id: 1,
+//     img: require("./assets/images/web_projects/1.webp"),
+//     title: "FE-Finance",
+//   },
+//   {
+//     id: 2,
+//     img: require("./assets/images/web_projects/2.webp"),
+//     title: "Ocxee",
+//   },
+//   {
+//     id: 3,
+//     img: require("./assets/images/web_projects/3.webp"),
+//     title: "Leaderbridge",
+//   },
+//   {
+//     id: 4,
+//     img: require("./assets/images/web_projects/4.webp"),
+//     title: "Gigzio",
+//   },
+//   {
+//     id: 5,
+//     img: require("./assets/images/web_projects/5.webp"),
+//     title: "FE Group",
+//   },
+//   {
+//     id: 6,
+//     img: require("./assets/images/web_projects/6.webp"),
+//     title: "V Talkz",
+//   },
+// ];
 
-// portfolio images (app development)
-export const appPortfolio = [
-  {
-    id: 1,
-    img: require("./assets/images/app_projects/1.webp"),
-    title: "PartEx",
-  },
-  {
-    id: 2,
-    img: require("./assets/images/app_projects/2.webp"),
-    title: "Find A Driver",
-  },
-  // {
-  //   id: 3,
-  //   img: require("./assets/images/app_projects/3.webp"),
-  //   title: "Glowsy",
-  // },
-  {
-    id: 4,
-    img: require("./assets/images/app_projects/4.webp"),
-    title: "Artisan Express",
-  },
-  {
-    id: 5,
-    img: require("./assets/images/app_projects/5.webp"),
-    title: "House of Deliverance",
-  },
-];
+// // portfolio images (app development)
+// export const appPortfolio = [
+//   {
+//     id: 1,
+//     img: require("./assets/images/app_projects/1.webp"),
+//     title: "PartEx",
+//   },
+//   {
+//     id: 2,
+//     img: require("./assets/images/app_projects/2.webp"),
+//     title: "Find A Driver",
+//   },
+//   // {
+//   //   id: 3,
+//   //   img: require("./assets/images/app_projects/3.webp"),
+//   //   title: "Glowsy",
+//   // },
+//   {
+//     id: 4,
+//     img: require("./assets/images/app_projects/4.webp"),
+//     title: "Artisan Express",
+//   },
+//   {
+//     id: 5,
+//     img: require("./assets/images/app_projects/5.webp"),
+//     title: "House of Deliverance",
+//   },
+// ];
