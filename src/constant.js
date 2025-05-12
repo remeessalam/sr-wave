@@ -19,9 +19,10 @@ import marketing from "./assets/images/services/marketing.png";
 export { logoImg };
 
 export const companyDetails = {
-  phone: "+919000000",
-  whatsapp: "+9190000000",
-  address: "[your-company-address]",
+  phone: "+9900923994",
+  whatsapp:
+    "https://api.whatsapp.com/send/?phone=919900923994&text&type=phone_number&app_absent=0",
+  address: "1099 Near Adi Parashakti Temple,GOLLAHALLI E-Ciry",
   email: "example@gmail.com",
   linkedin: "",
   instagram: "",

@@ -55,10 +55,10 @@ const Home = () => {
           <p className="sub-heading">
             Welcome to
             {/* <span className="text-primary font-semibold">
-              [your-company-name]
+              SR Wave
             </span> */}
           </p>
-          <h1 className="heading text-stroke">[your-company-name]</h1>
+          <h1 className="heading text-stroke">SR Wave</h1>
           <p className="sub-heading">
             Your Trusted Partner for Cutting-Edge Technology Solutions
           </p>

@@ -73,7 +73,7 @@ home page
 
         -> banner section
 
-            title: Welcome to [your-company-name]
+            title: Welcome to SR Wave
             paragraph:Your Trusted Partner for Cutting-Edge Technology Solutions
 
 

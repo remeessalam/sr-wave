@@ -52,9 +52,7 @@ const LandingPage = ({ page }) => {
         >
           <p className="text-xl">
             Welcome to{" "}
-            <span className="text-primary font-semibold">
-              [your-company-name]
-            </span>
+            <span className="text-secondary font-semibold">SR Wave</span>
           </p>
           <h1 className="heading-1 text-stroke">
             {isWebLanding
@@ -145,10 +143,10 @@ const LandingPage = ({ page }) => {
                 width="100"
                 height="100"
               />
-              <h6 className="text-xl font-medium mt-2 text-white">
+              <h6 className="text-xl font-medium mt-2 text-black">
                 {service.title}
               </h6>
-              <p className="desc mt-2 !text-white">{service.description}</p>
+              <p className="desc mt-2 !text-black">{service.description}</p>
             </div>
           ))}
         </div>

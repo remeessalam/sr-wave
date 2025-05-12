@@ -46,7 +46,7 @@ const MVPLandingPage = () => {
       icon: <FaRocket />,
       title: "Rapid Time-to-Market",
       description:
-        "Time is of the essence for startups and entrepreneurs. With [your-company-name], you can launch your MVP quickly to gather user feedback, validate your idea, and adapt as needed.",
+        "Time is of the essence for startups and entrepreneurs. With SR Wave, you can launch your MVP quickly to gather user feedback, validate your idea, and adapt as needed.",
     },
     {
       icon: <FaSync />,
@@ -142,9 +142,7 @@ const MVPLandingPage = () => {
           >
             <p className="text-xl">
               Welcome to{" "}
-              <span className="text-primary font-semibold">
-                [your-company-name]
-              </span>
+              <span className="text-primary font-semibold">SR Wave</span>
             </p>
             <h1 className="heading-1 text-stroke">
               MVP Development: Turning Ideas into Impactful Products.
@@ -166,7 +164,7 @@ const MVPLandingPage = () => {
               MVP Development Service
             </h1>
             <p className="text-xl md:text-2xl mb-8">
-              Turning Ideas into Reality with [your-company-name]
+              Turning Ideas into Reality with SR Wave
             </p>
             <button className="bg-white text-blue-600 font-bold py-2 px-6 rounded-full hover:bg-blue-100 transition duration-300">
               Get Started
@@ -211,25 +209,25 @@ const MVPLandingPage = () => {
                   Service
                 </h2>
                 <p className="desc">
-                  At [your-company-name], we empower innovators and
-                  entrepreneurs by transforming their ideas into reality through
-                  our Minimum Viable Product (MVP) Development Service. Our goal
-                  is to help you test the waters, validate your vision, and
-                  refine your product with minimal risk and maximum efficiency,
-                  all without requiring a hefty upfront investment.
+                  At SR Wave, we empower innovators and entrepreneurs by
+                  transforming their ideas into reality through our Minimum
+                  Viable Product (MVP) Development Service. Our goal is to help
+                  you test the waters, validate your vision, and refine your
+                  product with minimal risk and maximum efficiency, all without
+                  requiring a hefty upfront investment.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Why Choose [your-company-name] Section */}
+        {/* Why Choose SR Wave Section */}
         <section id="services" className="py-16 px-4 bg-black">
           <h2
             data-aos="fade-up"
             className="text-3xl md:text-4xl font-bold text-center mb-12"
           >
-            Why Choose [your-company-name]
+            Why Choose SR Wave
           </h2>
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {whyChooseReasons.map((reason, index) => (
@@ -303,8 +301,8 @@ const MVPLandingPage = () => {
             Ready to Bring Your Ideas to Life?
           </h2>
           <p data-aos="fade-up" className="text-xl mb-8">
-            Partner with [your-company-name] to develop your MVP and turn your
-            dreams into reality.
+            Partner with SR Wave to develop your MVP and turn your dreams into
+            reality.
           </p>
           <button
             data-aos="fade-up"

@@ -73,10 +73,10 @@ const ContactForm = () => {
       <div className="absolute top-0 w-full h-full bg-secondary/80"></div>
       <div className="wrapper relative z-10 w-full">
         <div className="flex flex-col items-center gap-5">
-          <SubHeading heading="Contact Us" />
+          <SubHeading heading="Contact Us" textColor="black" />
           <h2
             data-aos="fade-up"
-            className="heading-2 max-w-[60rem] mx-auto font-light text-center"
+            className="heading-2 max-w-[60rem] mx-auto font-light text-center text-black"
           >
             Connect With Us Today!
           </h2>
@@ -90,7 +90,7 @@ const ContactForm = () => {
             <input
               type="text"
               placeholder="Name"
-              className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
+              className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30 text-black"
               {...register("name", {
                 required: "Full name is required",
                 validate: (val) => {
@@ -108,7 +108,7 @@ const ContactForm = () => {
             <input
               type="email"
               placeholder="Email"
-              className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
+              className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30 text-black"
               {...register("email", {
                 required: "Email is required",
                 pattern: {
@@ -123,7 +123,7 @@ const ContactForm = () => {
             <input
               type="tel"
               placeholder="Phone Number"
-              className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
+              className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30 text-black"
               {...register("phone", {
                 required: "Phone number is required",
                 pattern: {
@@ -138,7 +138,7 @@ const ContactForm = () => {
             <input
               type="text"
               placeholder="Subject"
-              className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
+              className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30 text-black"
               {...register("subject", {
                 required: "Subject is required",
                 validate: (val) => {
@@ -156,7 +156,7 @@ const ContactForm = () => {
             <textarea
               rows="3"
               placeholder="Message"
-              className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30"
+              className="outline-none border-primary border bg-transparent p-2 rounded-sm shadow-large shadow-primary/30 text-black"
               {...register("message", {
                 required: "Message is required",
                 validate: (val) => {

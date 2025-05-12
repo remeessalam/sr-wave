@@ -139,15 +139,13 @@ function ChatBotLandingPage() {
         >
           <p className="text-xl">
             Welcome to{" "}
-            <span className="text-primary font-semibold">
-              [your-company-name]
-            </span>
+            <span className="text-primary font-semibold">SR Wave</span>
           </p>
           <h1 className="heading-1 text-stroke">Chatbot Development Service</h1>
           <p className="sub-heading">
-            At [your-company-name], we specialize in creating intelligent,
-            scalable, and customizable chatbot solutions that revolutionize the
-            way businesses interact with their customers.
+            At SR Wave, we specialize in creating intelligent, scalable, and
+            customizable chatbot solutions that revolutionize the way businesses
+            interact with their customers.
           </p>
         </div>
       </section>
@@ -187,13 +185,13 @@ function ChatBotLandingPage() {
                 Service
               </h2>
               <p className="desc">
-                At [your-company-name], we specialize in creating intelligent
-                chatbots that empower businesses and entrepreneurs to engage
-                their audiences effectively. From conceptualization to
-                deployment, our chatbot development service ensures your vision
-                is transformed into a functional, AI-powered solution with
-                minimal risk and maximum efficiency. Start innovating without
-                the need for a hefty upfront investment.
+                At SR Wave, we specialize in creating intelligent chatbots that
+                empower businesses and entrepreneurs to engage their audiences
+                effectively. From conceptualization to deployment, our chatbot
+                development service ensures your vision is transformed into a
+                functional, AI-powered solution with minimal risk and maximum
+                efficiency. Start innovating without the need for a hefty
+                upfront investment.
               </p>
             </div>
           </div>
@@ -212,7 +210,7 @@ function ChatBotLandingPage() {
                   data-aos="fade-up"
                   className="text-3xl font-bold mb-8 text-center"
                 >
-                  Why Choose [your-company-name] for Chatbot Development?
+                  Why Choose SR Wave for Chatbot Development?
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {features.map((feature, index) => (
@@ -278,8 +276,8 @@ function ChatBotLandingPage() {
               {/* Call to Action */}
               <div className="text-center">
                 <p data-aos="fade-up" className="text-xl mb-4">
-                  Transform your customer experience with [your-company-name]'s
-                  chatbot solutions.
+                  Transform your customer experience with SR Wave's chatbot
+                  solutions.
                 </p>
                 <p data-aos="fade-up" className="text-2xl font-bold">
                   Let's build a smarter future, one conversation at a time.
