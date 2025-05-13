@@ -77,9 +77,11 @@ const AllServices = () => {
           <p className="desc whitespace-pre-line">
             {selectedService.description}
           </p>
-          <p className="desc whitespace-pre-line">
-            {selectedService.detailContent}
-          </p>
+          <ul className="list-disc">
+            {selectedService.detailContent.map((obj) => (
+              <li className="desc whitespace-pre-line">{obj}</li>
+            ))}
+          </ul>
         </div>
       </Drawer>
     </section>
