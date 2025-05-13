@@ -77,7 +77,7 @@ const AllServices = () => {
           <p className="desc whitespace-pre-line">
             {selectedService.description}
           </p>
-          <ul className="list-disc">
+          <ul className="list-disc pb-[4rem]">
             {selectedService.detailContent.map((obj) => (
               <li className="desc whitespace-pre-line">{obj}</li>
             ))}
