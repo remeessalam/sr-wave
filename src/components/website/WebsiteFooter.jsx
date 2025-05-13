@@ -37,21 +37,21 @@ const WebsiteFooter = () => {
             <Link
               aria-label="Contact us on Instagram"
               to={companyDetails.instagram}
-              className="w-[2rem] h-[2rem] rounded-full p-2 bg-[#0788AE] hover:bg-tertiary hover:-translate-y-1 transition-all duration-300 flex justify-center items-center"
+              className="w-[2rem] h-[2rem] hover:text-black rounded-full p-2 bg-[#0788AE] hover:bg-tertiary hover:-translate-y-1 transition-all duration-300 flex justify-center items-center"
             >
               <Instagram strokeWidth={1.5} size={20} />
             </Link>
             <Link
               aria-label="Contact us on Twitter"
               to={companyDetails.twitter}
-              className="w-[2rem] h-[2rem] rounded-full p-2 bg-[#0788AE] hover:bg-tertiary hover:-translate-y-1 transition-all duration-300 flex justify-center items-center"
+              className="w-[2rem] h-[2rem] hover:text-black rounded-full p-2 bg-[#0788AE] hover:bg-tertiary hover:-translate-y-1 transition-all duration-300 flex justify-center items-center"
             >
               <Twitter strokeWidth={1.5} size={20} />
             </Link>
             <Link
               aria-label="Contact us on LinkedIn"
               to={companyDetails.linkedin}
-              className="w-[2rem] h-[2rem] rounded-full p-2 bg-[#0788AE] hover:bg-tertiary hover:-translate-y-1 transition-all duration-300 flex justify-center items-center"
+              className="w-[2rem] h-[2rem] hover:text-black rounded-full p-2 bg-[#0788AE] hover:bg-tertiary hover:-translate-y-1 transition-all duration-300 flex justify-center items-center"
             >
               <Linkedin strokeWidth={1.5} size={20} />
             </Link>
@@ -65,7 +65,7 @@ const WebsiteFooter = () => {
                 <li key={path}>
                   <Link
                     to={path}
-                    className="max-w-[22rem] flex gap-2 items-center text-white/70 hover:text-primary transition-colors duration-200"
+                    className="max-w-[22rem] flex gap-2 items-center text-white/70 hover:text-white transition-colors duration-200"
                   >
                     <ChevronRight size={17} strokeWidth={3} />
                     <span className="text-sm">{name}</span>
@@ -89,7 +89,7 @@ const WebsiteFooter = () => {
                 <Link
                   aria-label="Contact us on Email"
                   to={`mailto:${companyDetails.email}`}
-                  className="flex gap-3 text-white/70 hover:text-primary transition-colors duration-200"
+                  className="flex gap-3 text-white/70 hover:text-white transition-colors duration-200"
                 >
                   <Mail
                     strokeWidth={1.5}
@@ -103,7 +103,7 @@ const WebsiteFooter = () => {
                 <Link
                   aria-label="Contact us on Phone"
                   to={`tel:${companyDetails.phone}`}
-                  className="flex gap-3 text-white/70 hover:text-primary transition-colors duration-200"
+                  className="flex gap-3 text-white/70 hover:text-white transition-colors duration-200"
                 >
                   <Phone
                     strokeWidth={1.5}
