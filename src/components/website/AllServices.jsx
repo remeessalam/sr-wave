@@ -39,7 +39,9 @@ const AllServices = () => {
               <h6 className="text-xl font-medium mt-2 text-black">
                 {service.title}
               </h6>
-              <p className="desc mt-2 !text-black">{service.description}</p>
+              <p className="desc mt-2 !text-black line-clamp-5">
+                {service.description}
+              </p>
             </div>
             <button
               onClick={() => handleSelectServiceToShowDetail(service)}
@@ -67,6 +69,14 @@ const AllServices = () => {
         </div>
         <div className="wrapper flex flex-col gap-6 tex-white pb-[2rem]">
           <h1 className="heading-2">{selectedService.title}</h1>
+          <img
+            src={selectedService.img}
+            alt=""
+            className="aspect-square w-[300px] object-cover h-[300px]"
+          />
+          <p className="desc whitespace-pre-line">
+            {selectedService.description}
+          </p>
           <p className="desc whitespace-pre-line">
             {selectedService.detailContent}
           </p>
