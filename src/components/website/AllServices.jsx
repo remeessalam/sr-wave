@@ -56,8 +56,8 @@ const AllServices = () => {
         open={isOpen}
         onClose={() => setIsOpen(false)}
         direction="top"
-        className="p-4 z-10 w-screen"
-        lockBackgroundScroll
+        className="p-4 z-10 w-screen overflow-y-scroll h-screen"
+        lockBackgroundScroll={true}
       >
         <div className="mb-3 flex items-center justify-end pr-[.7rem] py-[.4rem]">
           <button
