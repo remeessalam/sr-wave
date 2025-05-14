@@ -105,7 +105,7 @@ export const companyDetails = {
   whatsapp:
     "https://api.whatsapp.com/send/?phone=919900923994&text&type=phone_number&app_absent=0",
   address: "1099 Near Adi Parashakti Temple,GOLLAHALLI E-Ciry",
-  email: "osewgroups09@gmail.com",
+  email: "info@sr-wave.com",
   linkedin: "",
   instagram: "",
   twitter: "",
