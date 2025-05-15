@@ -106,9 +106,11 @@ export const companyDetails = {
     "https://api.whatsapp.com/send/?phone=919900923994&text&type=phone_number&app_absent=0",
   address: "1099 Near Adi Parashakti Temple,GOLLAHALLI E-Ciry",
   email: "info@sr-wave.com",
-  linkedin: "",
-  instagram: "",
-  twitter: "",
+  linkedin: "https://www.linkedin.com/company/sr-wave",
+  facebook: "https://www.facebook.com/share/18k7xvt9pn/",
+  twitter: "https://x.com/sr_9Wave",
+  instagram:
+    "https://www.instagram.com/srw_ve/profilecard/?igsh=MWtkdHgyemRwc25oaw==",
 };
 
 export const routes = [
