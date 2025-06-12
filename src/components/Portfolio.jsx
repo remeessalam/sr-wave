@@ -24,7 +24,7 @@ const Portfolio = ({ page }) => {
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-7 max-w-5xl mx-auto mt-5">
         {portfolioList.map(({ img, id, title }) => (
           <div
-            className="relative aspect-square sm:aspect-square rounded-xl overflow-hidden"
+            className="relative group aspect-square sm:aspect-square rounded-xl overflow-hidden"
             key={id}
             data-aos="fade-up"
           >
@@ -34,10 +34,10 @@ const Portfolio = ({ page }) => {
               src={img}
               width="200"
               height="200"
-              className={`-z-10 h-full w-full object-cover`}
+              className={`-z-10 h-full w-full object-cover group-hover:scale-105 transition-all duration-300`}
               alt={title}
             />
-            <h3 className="text-xl absolute p-3 bottom-0 left-0 w-full bg-[#0f2136] text-center text-white">
+            <h3 className="text-xl absolute p-3 bottom-0 left-0 w-full bg-[#0f2136]/40 backdrop-blur-sm text-center text-white">
               {title}
             </h3>
           </div>

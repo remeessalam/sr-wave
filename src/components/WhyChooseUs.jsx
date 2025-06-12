@@ -14,34 +14,42 @@ const content = [
   {
     icon: icon1,
     title: "Proven Expertise",
+    // desc: "Seasoned professionals with proven track record in delivering successful projects",
   },
   {
     icon: icon2,
-    title: "Scalable & Impactful Solutions",
+    title: "Scalable Solutions",
+    // desc: "Future-proof solutions designed to grow with your business needs",
   },
   {
     icon: icon3,
     title: "Client-Centric Approach",
+    // desc: "Your success is our priority - tailored solutions for your unique requirements",
   },
   {
     icon: icon4,
     title: "Commitment to Quality",
+    // desc: "Rigorous quality assurance processes for flawless deliverables",
   },
   {
     icon: icon5,
     title: "End-to-End Solutions",
+    // desc: "Comprehensive services from concept to deployment and beyond",
   },
   {
     icon: icon6,
     title: "Reliable Support",
+    // desc: "24/7 dedicated support to ensure your operations run smoothly",
   },
   {
     icon: icon7,
     title: "Transparency & Integrity",
+    // desc: "Honest communication and clear processes at every stage",
   },
   {
     icon: icon8,
     title: "Innovative Problem Solvers",
+    // desc: "Creative solutions to complex challenges in the digital landscape",
   },
 ];
 
@@ -49,42 +57,69 @@ const WhyChooseUs = () => {
   return (
     <div
       className="py-[5rem] relative bg-center bg-cover min-h-[50vh]"
-      style={{ backgroundImage: `url(${bgImg})` }}
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), url(${bgImg})`,
+        backgroundAttachment: "fixed",
+      }}
     >
-      <div className="absolute top-0 w-full h-full bg-black/50"></div>
-      <div data-aos="fade-up" className="max-w-7xl mx-auto">
+      <div data-aos="fade-up" className="max-w-7xl mx-auto px-4">
         <div
-          className="mx-5 rounded-xl bg-center bg-cover relative"
+          className="rounded-xl bg-center bg-cover relative overflow-hidden border border-[#ffffff15]"
           style={{ backgroundImage: `url(${bannerImg})` }}
         >
-          <div className="absolute top-0 w-full h-full bg-black/50"></div>
-          <div className="py-[3rem] px-5 bg-black/70 rounded-xl text-white relative z-10">
-            <h1
-              data-aos="fade-up"
-              className="heading-2 max-w-[60rem] mx-auto text-center"
-            >
-              Why Choose Us?
-            </h1>
-            <p className="desc text-center max-w-[50rem] mx-auto">
-              At SR Wave, we are committed to delivering impactful digital
-              solutions that are both innovative and reliable. With a focus on
-              transparency, scalability, and client-centric service, we
-              transform ideas into realities.
-            </p>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/60"></div>
+          <div className="py-[4rem] px-5 sm:px-8 rounded-xl relative z-10">
+            <div className="text-center mb-12">
+              <h1
+                data-aos="fade-up"
+                className="heading-2 max-w-[60rem] mx-auto text-transparent bg-clip-text bg-gradient-to-r from-[#179CC4] to-[#f5f5f5f1]"
+              >
+                Why Choose SR Wave?
+              </h1>
+              <p
+                className="desc max-w-[50rem] mx-auto text-[#D3D3D3] text-lg"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                We transform ideas into realities with innovative, reliable
+                digital solutions. Our focus on transparency, scalability, and
+                client satisfaction sets us apart.
+              </p>
+            </div>
+
             <div
               data-aos="fade-up"
-              className="grid sm:grid-cols-2 md:grid-cols-4 gap-5 mt-10"
+              data-aos-delay="200"
+              className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"
             >
               {content.map((item, index) => (
                 <div
                   key={index}
-                  className="flex flex-col group items-center gap-3 bg-gradient-to-b from-[#179CC4] to-[#0f4a5d] rounded-xl p-5 transition-all duration-200"
+                  className="flex flex-col group items-center gap-4 bg-[#111010d9] rounded-xl p-6 transition-all duration-500 hover:bg-[#179CC4]/20 hover:shadow-lg hover:-translate-y-2 border border-[#ffffff10] hover:border-[#179CC4]/40 relative overflow-hidden"
                 >
-                  <item.icon className="w-[3.5rem] fill-white h-[3.5rem] transition-all duration-200" />
-                  <p className="text-center">{item.title}</p>
+                  {/* Glow effect */}
+                  <div className="absolute inset-0 bg-[#179CC4] opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
+
+                  {/* Icon container with pulse effect */}
+                  <div className="p-4 rounded-full bg-gradient-to-br from-[#179CC4] to-[#0f4a5d] group-hover:from-[#f5f5f5f1] group-hover:to-[#179CC4] transition-all duration-500 group-hover:shadow-[0_0_20px_rgba(23,156,196,0.5)]">
+                    <item.icon className="w-[2.5rem] h-[2.5rem] fill-white group-hover:fill-[#111010] transition-all duration-500" />
+                  </div>
+
+                  <h3 className="text-xl font-semibold text-center text-[#f5f5f5f1] group-hover:text-white transition-all">
+                    {item.title}
+                  </h3>
+
+                  <p className="text-sm text-center text-[#D3D3D3] opacity-0 h-0 group-hover:opacity-100 group-hover:h-auto transition-all duration-500">
+                    {item.desc}
+                  </p>
+
+                  {/* Animated underline */}
+                  <div className="w-0 h-[2px] bg-[#179CC4] group-hover:w-12 transition-all duration-500"></div>
                 </div>
               ))}
             </div>
+
+            {/* CTA at bottom */}
           </div>
         </div>
       </div>

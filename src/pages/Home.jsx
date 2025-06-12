@@ -9,6 +9,9 @@ import SubHeading from "../components/SubHeading";
 import ServiceTabs from "../components/website/ServiceTab";
 import { RiBitCoinLine, RiSmartphoneLine } from "react-icons/ri";
 import { MdSportsEsports } from "react-icons/md";
+import ServiceCards from "../components/website/ServiceCards";
+import bannervideo from "../assets/videos/bannervideo.mp4";
+import ReactPlayer from "react-player";
 const WebsiteHeader = React.lazy(() =>
   import("../components/website/WebsiteHeader")
 );
@@ -31,12 +34,35 @@ const WhyChooseUs = React.lazy(() => import("../components/WhyChooseUs"));
 const LeadForm = React.lazy(() => import("../components/LeadForm"));
 
 const Home = () => {
+  const serviceCards = [
+    {
+      id: 1,
+      icon: <RiBitCoinLine size={50} className="text-white" />,
+      title: "Blockchain Development",
+      description:
+        "Drive innovation with secure, decentralized blockchain solutions tailored to your business.",
+    },
+    {
+      id: 2,
+      icon: <MdSportsEsports size={50} className="text-white" />,
+      title: "Game Development",
+      description:
+        "Engage audiences with immersive game development solutions, from concept to launch.",
+    },
+    {
+      id: 3,
+      icon: <RiSmartphoneLine size={50} className="text-white" />,
+      title: "App Development",
+      description:
+        "Empower your business with intuitive and high-performance mobile applications.",
+    },
+  ];
   return (
     <>
       <WebsiteHeader />
       <section className="h-screen relative text-white">
-        <div className="absolute top-0 w-full h-full bg-black/90"></div>
-        <img
+        <div className="absolute top-0 w-full h-full bg-black/40"></div>
+        {/* <img
           loading="lazy"
           src={bannerImg}
           srcset={`${bannerImg} 400w, 
@@ -47,24 +73,48 @@ const Home = () => {
          1200px"
           class="w-full h-full absolute -z-10 object-cover object-center"
           alt=""
-        />
-        <div
-          data-aos="fade-up"
-          className="wrapper text-center flex flex-col gap-5 justify-center items-center h-full relative z-10"
-        >
-          <p className="sub-heading">
-            Welcome to
-            {/* <span className="text-primary font-semibold">
+        /> */}
+        <div className="absolute top-0 w-full h-full bg-gradient-to-b from-black/30 via-black/10 to-black">
+          <div
+            data-aos="fade-up"
+            className="wrapper text-center flex flex-col gap-5 justify-center items-center h-full relative z-10"
+          >
+            <p className="sub-heading">
+              Welcome to
+              {/* <span className="text-primary font-semibold">
               SR Wave
             </span> */}
-          </p>
-          <h1 className="heading text-stroke">SR Wave</h1>
-          <p className="sub-heading">
-            Your Trusted Partner for Cutting-Edge Technology Solutions
-          </p>
+            </p>
+            <h1 className="heading text-stroke">SR Wave</h1>
+            <p className="sub-heading">
+              Your Trusted Partner for Cutting-Edge Technology Solutions
+            </p>
+          </div>
         </div>
+        <ReactPlayer
+          url={bannervideo}
+          playing
+          muted
+          playsinline
+          loop
+          pip={false}
+          width="100%"
+          height="100%"
+          config={{
+            file: {
+              attributes: {
+                style: {
+                  width: "100vw",
+                  height: "100vh",
+                  objectFit: "cover",
+                },
+              },
+            },
+          }}
+        />
       </section>
-      <div
+      <ServiceCards services={serviceCards} />
+      {/* <div
         data-aos="fade-up"
         className="md:-mt-[7rem] py-[2rem] relative z-10 max-w-6xl mx-auto px-6 grid sm:grid-cols-2 md:grid-cols-3 gap-5"
       >
@@ -102,7 +152,7 @@ const Home = () => {
             applications.
           </p>
         </div>
-      </div>
+      </div> */}
       <section className="text-white wrapper py-[3rem]">
         <div className="grid lg:grid-cols-2 gap-10 mt-7">
           <div data-aos="fade-up" className="hidden lg:block h-full">

@@ -15,7 +15,7 @@ const WebsiteHeader = () => {
   };
 
   return (
-    <div className="py-4 fixed top-0 w-full bg-header backdrop-blur-md z-50 text-white">
+    <div className="py-4 fixed top-0 w-full bg-[#00001f] backdrop-blur-md z-50 text-white">
       <div className="wrapper flex justify-between items-center gap-10">
         <div className="flex justify-between items-center gap-20 w-full pl-[1rem] lg:pl-0">
           <Helmet>

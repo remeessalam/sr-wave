@@ -124,38 +124,70 @@ const AboutUs = () => {
       </section>
 
       <TrustWorthySection />
-      <section className="wrapper py-[3rem] bg-tertiary">
-        <div className="grid md:grid-cols-2 gap-10 mt-7">
-          <div data-aos="fade-up" className="h-full">
-            <img
-              loading="lazy"
-              src={aboutImg3}
-              className="object-cover h-full w-full max-h-[20rem] rounded-lg"
-              alt="Our Mission"
-            />
-          </div>
-          <div
-            data-aos="fade-up"
-            className="flex items-center lg:items-start flex-col gap-7"
-          >
-            <p className="desc !text-black">
-              At <b>SR Wave</b>, our mission is to craft digital solutions that
-              drive innovation, streamline operations, and deliver tangible
-              results. Our approach blends technical excellence with a
-              commitment to integrity, ensuring that every project not only
-              meets business goals but also aligns with ethical principles.
-              <br /> <br />
-              From blockchain development to AI-driven insights, we transform
-              complex challenges into impactful solutions that empower
-              businesses to stay ahead of the curve. Our team of experts
-              leverages cutting-edge technologies to build solutions that are
-              robust, scalable, and future-ready.
-              <br /> <br />
-              At <b>SR Wave</b>, innovation is more than a buzzword—it’s our
-              core value. Join us as we shape the future of business with smart,
-              data-driven solutions that inspire trust and fuel sustainable
-              growth.
-            </p>
+      <section className="relative py-16 bg-gray-900 overflow-hidden">
+        {/* Decorative elements */}
+        <div className="absolute top-0 left-0 w-full h-full opacity-10">
+          <div className="absolute top-20 left-10 w-40 h-40 bg-primary rounded-full filter blur-3xl"></div>
+          <div className="absolute bottom-10 right-20 w-60 h-60 bg-sky-300 rounded-full filter blur-3xl"></div>
+        </div>
+
+        {/* Grid container */}
+        <div className="wrapper relative z-10">
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            {/* Image section with cool border effect */}
+            <div data-aos="fade-right" className="relative group">
+              <div className="absolute -inset-2 rounded-lg bg-gradient-to-r from-primary to-sky-700 opacity-70 group-hover:opacity-100 transition-all duration-500 blur-md"></div>
+              <div className="relative h-full overflow-hidden rounded-lg border border-gray-800">
+                <img
+                  loading="lazy"
+                  src={aboutImg3}
+                  className="object-cover h-full w-full max-h-[20rem] md:max-h-none transition-transform duration-700 group-hover:scale-105"
+                  alt="Our Mission"
+                />
+              </div>
+            </div>
+
+            {/* Text content with animated elements */}
+            <div data-aos="fade-left" className="space-y-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-white">
+                Our{" "}
+                <span className="text-transparent bg-clip-text bg-secondary">
+                  Mission
+                </span>
+              </h2>
+
+              <div className="space-y-5 text-gray-300">
+                <p className="text-lg leading-relaxed">
+                  At <span className="font-bold text-white">SR Wave</span>, our
+                  mission is to craft digital solutions that drive innovation,
+                  streamline operations, and deliver tangible results. Our
+                  approach blends{" "}
+                  <span className="text-sky-300">technical excellence</span>{" "}
+                  with a commitment to integrity.
+                </p>
+
+                <div className="relative pl-5 border-l-2 border-gray-800">
+                  <div className="absolute -left-1 top-0 w-3 h-3 rounded-full bg-primary"></div>
+                  <p className="text-lg leading-relaxed">
+                    From blockchain development to AI-driven insights, we
+                    transform complex challenges into{" "}
+                    <span className="text-sky-300">impactful solutions</span>{" "}
+                    that empower businesses to stay ahead of the curve.
+                  </p>
+                </div>
+
+                <div className="relative p-5 bg-gray-800/50 rounded-lg border border-gray-800 backdrop-blur-sm">
+                  <div className="absolute -top-2 -left-2 w-4 h-4 border-t-2 border-l-2 border-primary"></div>
+                  <div className="absolute -bottom-2 -right-2 w-4 h-4 border-b-2 border-r-2 border-sky-300"></div>
+                  <p className="text-lg leading-relaxed">
+                    At <span className="font-bold text-white">SR Wave</span>,
+                    innovation is more than a buzzword—it's our core value. Join
+                    us as we shape the future of business with smart,
+                    data-driven solutions.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
