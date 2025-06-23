@@ -17,7 +17,7 @@ import WhatsAppIcon from "./components/WhatsAppIcon";
 import { Toaster } from "react-hot-toast";
 import MVPLandingPage from "./pages/MVPLandingPage";
 import ChatBotLandingPage from "./pages/ChatBotLandingPage";
-import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
+// import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 const LandingPage = lazy(() => import("./pages/LandingPage"));
 const ThankYou = lazy(() => import("./pages/ThankYou"));
 
@@ -33,10 +33,10 @@ function App() {
     <Suspense fallback={<LoadingSpinner />}>
       <SpinnerContextProvider>
         <Router>
-          <TawkMessengerReact
+          {/* <TawkMessengerReact
             propertyId="6822e703470adc190e4b8904"
             widgetId="1ir45cq08"
-          />
+          /> */}
 
           <LoadingSpinnerContext />
           <WhatsAppIcon />
