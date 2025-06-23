@@ -101,6 +101,7 @@ export const appPortfolio = [
 export { logoImg };
 
 export const companyDetails = {
+  name: "SR Wave",
   phone: "+9900923994",
   whatsapp:
     "https://api.whatsapp.com/send/?phone=919900923994&text&type=phone_number&app_absent=0",
